@@ -1,4 +1,4 @@
-# Fibbonacci Numbers
+# Fibonacci Numbers
 
 '''
     Write a function which generates a sequence of numbers
@@ -6,11 +6,11 @@
     Starting with 0 and 1, the next number becomes 2, then 3, 5, 8...
 '''
 
-### 1. Print the first 20 Fibbonacci numbers
+### 1. Print the first 20 Fibonacci numbers
 
-### 2. Print the first 100 Fibbonacci numbers
+### 2. Print the first 100 Fibonacci numbers
 
-### 3. Write a function to give the nth Fibbonacci number
+### 3. Write a function to give the nth Fibonacci number
 '''
     i.e. fib(30) => 832040
 '''
