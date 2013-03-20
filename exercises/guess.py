@@ -7,12 +7,6 @@ answer = choice(range(1, 21)) #randomly select a number between 1 and 20
 guess = raw_input('What is your guess? ')
 
 ### 1. Now make it tell them if they guessed right
-'''
-    Think - if you just copied the block of code 3 times, what if the
-    number of attempts was 100 - would you still copy and paste?
-
-    Try something smart like a loop
-'''
 
 ### 2. Now make it give them 3 guesses
 '''
