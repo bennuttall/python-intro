@@ -91,7 +91,7 @@ name = '' # enter your name in this string
 
 # Or we could just make sure we enter it as a string:
 
-### age =  # enter your age here, as a string 
+### age =  # enter your age here, as a string
 
 ### print name + ' is ' + age + ' years old'
 
@@ -244,7 +244,7 @@ first_letter = full_name[0]
 last_letter = full_name[19]
 first_three = full_name[:3] # [0:3 also works]
 last_three = full_name[-3:] # [17:] and [17:20] also work
-middle = full_name = full_name[8:14]
+middle = full_name[8:14]
 
 ### Try printing these, and try to make a word out of the individual letters
 
