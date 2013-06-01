@@ -8,6 +8,7 @@
 # Do one challenge at a time, save and run after each one!
 
 # Run the file by typing    python intro.py    in the terminal
+# Or just use IDLE
 
 # 1. This is the print statement
 
