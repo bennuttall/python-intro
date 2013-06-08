@@ -236,7 +236,10 @@ colour_set = set(all_colours)
 
 my_class = ['Sarah', 'Bob', 'Jim', 'Tom', 'Lucy', 'Sophie', 'Liz', 'Ed']
 
-''' This is a multi-line comment. Delete this line and the other one below
+# Below is a multi-line comment
+# Delete the ''' from before and after to uncomment the block
+
+'''
 for student in my_class:
     print student
 '''
