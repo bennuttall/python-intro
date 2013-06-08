@@ -1,5 +1,5 @@
-# Python Intro Exercises
+# Python Intro
 
-Some Python exercises for beginners / intermediate
+A Python learning tool with beginner exercises in using variables, data structures and basic control flow
 
-Developed for use in MadLab originally
+Originally developed for use in Raspberry Jams, STEM activities, MadLabU18, etc.
