@@ -141,12 +141,20 @@ else:
 
 # GO!
 
+# Now change the value of tablet_cost to 260 and run it again
+# What should the message be this time?
+
+# GO!
+
+# Is this right? You might need to change the comparison operator to >=
+# This means 'greater than or equal to'
+
 raspberry_pi = 25
 pies = 3 * raspberry_pi
 
 total_cost = total_cost + pies
 
-if total_cost < money:
+if total_cost <= money:
     message = "You have enough money for 3 raspberry pies as well"
 else:
     message = "You can't afford 3 raspberry pies"
