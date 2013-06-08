@@ -244,7 +244,9 @@ for student in my_class:
     print student
 '''
 
-### Add all the names of people in your group to this list using append
+### Add all the names of people in your group to this list
+
+# Remember the difference between append and extend. You can use either.
 
 ### Now write a loop to print a number (starting from 1) before each name
 
