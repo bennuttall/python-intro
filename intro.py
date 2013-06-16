@@ -3,12 +3,11 @@
 # The lines that start with a hash (#) are comments
 # They are for you to read and are ignored by Python
 
-# When you see 'GO!', save the file and run the file to see the output
-# When you see a line starting with ### follow the instructions
+# When you see 'GO!', save and run the file to see the output
+# When you see a line starting with # follow the instructions
+# Some lines are python code with a # in front
+# This means they're commented out - remove the # to uncomment
 # Do one challenge at a time, save and run after each one!
-
-# Run the file by typing    python intro.py    in the terminal
-# Or just use IDLE
 
 # 1. This is the print statement
 
@@ -20,13 +19,13 @@ print "Hello world"
 
 message = "Level Two"
 
-### Add a line below to print this variable
+# Add a line below to print this variable
 
 # GO!
 
 # 3. The variable above is called a string
 # You can use single or double quotes (but must close them)
-### You can ask Python what type a variable is. Try uncommenting the next line:
+# You can ask Python what type a variable is. Try uncommenting the next line:
 # print type(message)
 # GO!
 
@@ -35,11 +34,11 @@ a = 123
 b = 654
 c = a + b
 
-### Try printing the value of c below to see the answer
+# Try printing the value of c below to see the answer
 # GO!
 
 # 5. You can use other operators like subtract (-) and multiply (*)
-### Try some below by replacing the word with the correct operator
+# Try some below by replacing the word with the correct operator
 
 # a times b
 # b minus a
@@ -51,13 +50,13 @@ c = a + b
 # 6. Variables keep their value until you change it
 
 a = 100
-### print a # think - should this be 123 or 100?
+# print a # think - should this be 123 or 100?
 
 c = 50
-### print c # think - should this be 50 or 777?
+# print c # think - should this be 50 or 777?
 
 d = 10 + a - c
-### print d # think - what should this be now?
+# print d # think - what should this be now?
 
 # GO!
 
@@ -66,15 +65,15 @@ d = 10 + a - c
 greeting = 'Hi '
 name = '' # enter your name in this string
 
-### message = greeting + name
+# message = greeting + name
 
 # GO!
 
 # 8. Try adding a number and a string together and you get an error:
 
-### age = # enter your age here (as a number)
+# age = # enter your age here (as a number)
 
-### print name + ' is ' + age + ' years old'
+# print name + ' is ' + age + ' years old'
 
 # GO!
 
@@ -84,7 +83,7 @@ name = '' # enter your name in this string
 
 # 9. We can convert numbers to strings like this:
 
-### print name + ' is ' + str(age) + ' years old'
+# print name + ' is ' + str(age) + ' years old'
 
 # GO!
 
@@ -92,9 +91,9 @@ name = '' # enter your name in this string
 
 # Or we could just make sure we enter it as a string:
 
-### age =  # enter your age here, as a string
+# age =  # enter your age here, as a string
 
-### print name + ' is ' + age + ' years old'
+# print name + ' is ' + age + ' years old'
 
 # GO!
 
@@ -109,17 +108,17 @@ raspberry_pi_is_expensive = False
 # We can also compare two variables using ==
 
 bobs_age = 15
-### your_age = # fill in your age
+# your_age = # fill in your age
 
-### print your_age == bobs_age # this prints either True or False
+# print your_age == bobs_age # this prints either True or False
 
 # GO!
 
-# 11. We can use less than and greater than too - these are > and <
+# 11. We can use less than and greater than too - these are < and >
 
-### bob_is_older = bobs_age > your_age
+# bob_is_older = bobs_age > your_age
 
-### print bob_is_older # do you expect True or False?
+# print bob_is_older # do you expect True or False?
 
 # GO!
 
@@ -137,7 +136,7 @@ if can_afford_both:
 else:
     message = "You can't afford both devices"
 
-### print message # what do you expect to see here?
+# print message # what do you expect to see here?
 
 # GO!
 
@@ -159,7 +158,7 @@ if total_cost <= money:
 else:
     message = "You can't afford 3 raspberry pies"
 
-### print message # what do you expect to see here?
+# print message # what do you expect to see here?
 
 # GO!
 
@@ -169,7 +168,7 @@ colours = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
 
 # You can check whether a colour is in the list
 
-### print 'Black' in colours ## Returns True or False
+# print 'Black' in colours # Returns True or False
 
 # GO!
 
@@ -178,7 +177,7 @@ colours = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
 colours.append('Black')
 colours.append('White')
 
-### print 'Black' in colours ## Should this be different now?
+# print 'Black' in colours # Should this be different now?
 
 # GO!
 
@@ -188,7 +187,7 @@ more_colours = ['Gray', 'Navy', 'Pink']
 
 colours.extend(more_colours)
 
-### Try printing the list to see what's in it
+# Try printing the list to see what's in it
 
 # GO!
 
@@ -199,17 +198,17 @@ secondary_colours = ['Purple', 'Orange', 'Green']
 
 main_colours = primary_colours + secondary_colours
 
-### Try printing main_colours
+# Try printing main_colours
 
 # 15. You can find how many there are by using len(your_list). Try it below
 
-### How many colours are there in main_colours?
+# How many colours are there in main_colours?
 
 # GO!
 
 all_colours = colours + main_colours
 
-### How many colours are there in all_colours?
+# How many colours are there in all_colours?
 # Do it here. Try to think what you expect before you run it
 
 # GO!
@@ -222,14 +221,14 @@ even_numbers = [2, 4, 6, 8, 10, 12]
 multiples_of_three = [3, 6, 9, 12]
 
 numbers = even_numbers + multiples_of_three
-### print numbers, len(numbers)
+# print numbers, len(numbers)
 numbers_set = set(numbers)
-### print numbers_set, len(numbers_set)
+# print numbers_set, len(numbers_set)
 
 # GO!
 
 colour_set = set(all_colours)
-### How many colours do you expect to be in this time?
+# How many colours do you expect to be in this time?
 # Do you expect the same or not? Think about it first
 
 # 17. You can use a loop to look over all the items in a list
@@ -244,11 +243,11 @@ for student in my_class:
     print student
 '''
 
-### Add all the names of people in your group to this list
+# Add all the names of people in your group to this list
 
 # Remember the difference between append and extend. You can use either.
 
-### Now write a loop to print a number (starting from 1) before each name
+# Now write a loop to print a number (starting from 1) before each name
 
 # 18. You can split up a string by index
 
@@ -260,21 +259,21 @@ first_three = full_name[:3] # [0:3 also works]
 last_three = full_name[-3:] # [17:] and [17:20] also work
 middle = full_name[8:14]
 
-### Try printing these, and try to make a word out of the individual letters
+# Try printing these, and try to make a word out of the individual letters
 
 # 19. You can also split the string on a specific character
 
 my_sentence = "Hello, my name is Fred"
 parts = my_sentence.split(',')
 
-### print parts
-### print type(parts) # What type is this variable? What can you do with it?
+# print parts
+# print type(parts) # What type is this variable? What can you do with it?
 
 # GO!
 
 my_long_sentence = "This is a very very very very very very long sentence"
 
-### Now split the sentence and use this to print out the number of words
+# Now split the sentence and use this to print out the number of words
 
 # GO! (Clues below if you're stuck)
 
@@ -286,7 +285,7 @@ my_long_sentence = "This is a very very very very very very long sentence"
 
 person = ('Bobby', 26)
 
-### print person[0] + ' is ' + person[1] ' years old'
+# print person[0] + ' is ' + person[1] + ' years old'
 
 # GO!
 
@@ -299,18 +298,18 @@ students = [
     ('Daniel', 10)
 ]
 
-### Now write a loop to print each of the students' names and age
+# Now write a loop to print each of the students' names and age
 
 # GO!
 
 # 21. Tuples can be any length. The above examples are 2-tuples.
 
-### Try making a list of students with (name, age, favourite subject and sport)
+# Try making a list of students with (name, age, favourite subject and sport)
 
-### Now loop over them printing each one out
+# Now loop over them printing each one out
 
-### Now pick a number (in the students' age range)
-### Make the loop only print the students older than that number
+# Now pick a number (in the students' age range)
+# Make the loop only print the students older than that number
 
 # GO!
 
