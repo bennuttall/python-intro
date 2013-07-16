@@ -50,20 +50,20 @@ c = a + b
 # 6. Variables keep their value until you change it
 
 a = 100
-# print(a) # think - should this be 123 or 100?
+# print(a)  # think - should this be 123 or 100?
 
 c = 50
-# print(c) # think - should this be 50 or 777?
+# print(c)  # think - should this be 50 or 777?
 
 d = 10 + a - c
-# print(d) # think - what should this be now?
+# print(d)  # think - what should this be now?
 
 # GO!
 
 # 7. You can also use '+' to add together two strings
 
 greeting = 'Hi '
-name = '' # enter your name in this string
+name = ''  # enter your name in this string
 
 message = greeting + name
 # print(message)
@@ -72,7 +72,7 @@ message = greeting + name
 
 # 8. Try adding a number and a string together and you get an error:
 
-# age = # enter your age here (as a number)
+# age =  # enter your age here (as a number)
 
 # print(name + ' is ' + age + ' years old')
 
@@ -109,9 +109,9 @@ raspberry_pi_is_expensive = False
 # We can also compare two variables using ==
 
 bobs_age = 15
-# your_age = # fill in your age
+# your_age =  # fill in your age
 
-# print(your_age == bobs_age) # this prints either True or False
+# print(your_age == bobs_age)  # this prints either True or False
 
 # GO!
 
@@ -119,7 +119,7 @@ bobs_age = 15
 
 # bob_is_older = bobs_age > your_age
 
-# print(bob_is_older) # do you expect True or False?
+# print(bob_is_older)  # do you expect True or False?
 
 # GO!
 
@@ -137,7 +137,7 @@ if can_afford_both:
 else:
     message = "You can't afford both devices"
 
-# print(message) # what do you expect to see here?
+# print(message)  # what do you expect to see here?
 
 # GO!
 
@@ -159,7 +159,7 @@ if total_cost <= money:
 else:
     message = "You can't afford 3 raspberry pies"
 
-# print(message) # what do you expect to see here?
+# print(message)  # what do you expect to see here?
 
 # GO!
 
@@ -169,7 +169,7 @@ colours = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
 
 # You can check whether a colour is in the list
 
-# print('Black' in colours) # Returns True or False
+# print('Black' in colours)  # Prints True or False
 
 # GO!
 
@@ -178,7 +178,7 @@ colours = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
 colours.append('Black')
 colours.append('White')
 
-# print('Black' in colours) # Should this be different now?
+# print('Black' in colours)  # Should this be different now?
 
 # GO!
 
@@ -256,8 +256,8 @@ full_name = 'Dominic Adrian Smith'
 
 first_letter = full_name[0]
 last_letter = full_name[19]
-first_three = full_name[:3] # [0:3 also works]
-last_three = full_name[-3:] # [17:] and [17:20] also work
+first_three = full_name[:3]  # [0:3 also works]
+last_three = full_name[-3:]  # [17:] and [17:20] also work
 middle = full_name[8:14]
 
 # Try printing these, and try to make a word out of the individual letters
@@ -268,7 +268,7 @@ my_sentence = "Hello, my name is Fred"
 parts = my_sentence.split(',')
 
 # print(parts)
-# print(type(parts)) # What type is this variable? What can you do with it?
+# print(type(parts))  # What type is this variable? What can you do with it?
 
 # GO!
 
