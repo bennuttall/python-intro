@@ -286,7 +286,7 @@ my_long_sentence = "This is a very very very very very very long sentence"
 
 person = ('Bobby', 26)
 
-# print(person[0] + ' is ' + person[1] + ' years old')
+# print(person[0] + ' is ' + str(person[1]) + ' years old')
 
 # GO!
 
