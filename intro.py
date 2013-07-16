@@ -11,7 +11,7 @@
 
 # 1. This is the print statement
 
-print "Hello world"
+print("Hello world")
 
 # GO!
 
@@ -26,7 +26,7 @@ message = "Level Two"
 # 3. The variable above is called a string
 # You can use single or double quotes (but must close them)
 # You can ask Python what type a variable is. Try uncommenting the next line:
-# print type(message)
+# print(type(message))
 # GO!
 
 # 4. Another type of variable is an integer (a whole number)
@@ -50,13 +50,13 @@ c = a + b
 # 6. Variables keep their value until you change it
 
 a = 100
-# print a # think - should this be 123 or 100?
+# print(a) # think - should this be 123 or 100?
 
 c = 50
-# print c # think - should this be 50 or 777?
+# print(c) # think - should this be 50 or 777?
 
 d = 10 + a - c
-# print d # think - what should this be now?
+# print(d) # think - what should this be now?
 
 # GO!
 
@@ -65,7 +65,8 @@ d = 10 + a - c
 greeting = 'Hi '
 name = '' # enter your name in this string
 
-# message = greeting + name
+message = greeting + name
+# print(message)
 
 # GO!
 
@@ -73,7 +74,7 @@ name = '' # enter your name in this string
 
 # age = # enter your age here (as a number)
 
-# print name + ' is ' + age + ' years old'
+# print(name + ' is ' + age + ' years old')
 
 # GO!
 
@@ -83,7 +84,7 @@ name = '' # enter your name in this string
 
 # 9. We can convert numbers to strings like this:
 
-# print name + ' is ' + str(age) + ' years old'
+# print(name + ' is ' + str(age) + ' years old')
 
 # GO!
 
@@ -93,7 +94,7 @@ name = '' # enter your name in this string
 
 # age =  # enter your age here, as a string
 
-# print name + ' is ' + age + ' years old'
+# print(name + ' is ' + age + ' years old')
 
 # GO!
 
@@ -110,7 +111,7 @@ raspberry_pi_is_expensive = False
 bobs_age = 15
 # your_age = # fill in your age
 
-# print your_age == bobs_age # this prints either True or False
+# print(your_age == bobs_age) # this prints either True or False
 
 # GO!
 
@@ -118,7 +119,7 @@ bobs_age = 15
 
 # bob_is_older = bobs_age > your_age
 
-# print bob_is_older # do you expect True or False?
+# print(bob_is_older) # do you expect True or False?
 
 # GO!
 
@@ -136,7 +137,7 @@ if can_afford_both:
 else:
     message = "You can't afford both devices"
 
-# print message # what do you expect to see here?
+# print(message) # what do you expect to see here?
 
 # GO!
 
@@ -158,7 +159,7 @@ if total_cost <= money:
 else:
     message = "You can't afford 3 raspberry pies"
 
-# print message # what do you expect to see here?
+# print(message) # what do you expect to see here?
 
 # GO!
 
@@ -168,7 +169,7 @@ colours = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
 
 # You can check whether a colour is in the list
 
-# print 'Black' in colours # Returns True or False
+# print('Black' in colours) # Returns True or False
 
 # GO!
 
@@ -177,7 +178,7 @@ colours = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
 colours.append('Black')
 colours.append('White')
 
-# print 'Black' in colours # Should this be different now?
+# print('Black' in colours) # Should this be different now?
 
 # GO!
 
@@ -221,9 +222,9 @@ even_numbers = [2, 4, 6, 8, 10, 12]
 multiples_of_three = [3, 6, 9, 12]
 
 numbers = even_numbers + multiples_of_three
-# print numbers, len(numbers)
+# print(numbers, len(numbers))
 numbers_set = set(numbers)
-# print numbers_set, len(numbers_set)
+# print(numbers_set, len(numbers_set))
 
 # GO!
 
@@ -240,7 +241,7 @@ my_class = ['Sarah', 'Bob', 'Jim', 'Tom', 'Lucy', 'Sophie', 'Liz', 'Ed']
 
 '''
 for student in my_class:
-    print student
+    print(student)
 '''
 
 # Add all the names of people in your group to this list
@@ -266,8 +267,8 @@ middle = full_name[8:14]
 my_sentence = "Hello, my name is Fred"
 parts = my_sentence.split(',')
 
-# print parts
-# print type(parts) # What type is this variable? What can you do with it?
+# print(parts)
+# print(type(parts)) # What type is this variable? What can you do with it?
 
 # GO!
 
@@ -285,7 +286,7 @@ my_long_sentence = "This is a very very very very very very long sentence"
 
 person = ('Bobby', 26)
 
-# print person[0] + ' is ' + person[1] + ' years old'
+# print(person[0] + ' is ' + person[1] + ' years old')
 
 # GO!
 
