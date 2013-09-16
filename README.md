@@ -1,4 +1,4 @@
-[![Stories in Ready](http://badge.waffle.io/madlabu18/python-intro.png)](http://waffle.io/madlabu18/python-intro)  
+[![Stories in Ready](http://badge.waffle.io/madlabu18/python-intro.png)](http://waffle.io/madlabu18/python-intro)
 
 # Python Intro
 
@@ -8,23 +8,27 @@ Originally developed for use in Raspberry Jams, STEM activities, Code Clubs, etc
 
 Designed to be compatible with both Python2 and Python3. This is important.
 
-Also designed to be PEP-compliant, to encourage good coding style.
+Also designed to be PEP-8 compliant, to encourage good coding style.
 
 ## How to use
 
 Download this repository as a ZIP or tarball and extract the files
 
 ZIP:
-Web URL: ``` https://github.com/madlabU18/Python-Intro/archive/master.zip ```
-Download from the command line: ``` wget https://github.com/madlabU18/Python-Intro/archive/master.zip ```
+
+Web URL: ``` https://github.com/madlabU18/python-intro/archive/master.zip ```
+
+Download from the command line: ``` wget https://github.com/madlabU18/python-intro/archive/master.zip ```
 
 Tarball:
-Web URL: ``` https://github.com/madlabU18/Python-Intro/archive/master.tar.gz ```
-Download from the command line: ``` wget https://github.com/madlabU18/Python-Intro/archive/master.tar.gz ```
 
-Alterntively use git clone if you are proficient with git. This means you can make changes and revert it back to its original state with git checkout.
+Web URL: ``` https://github.com/madlabU18/python-intro/archive/master.tar.gz ```
 
-``` git clone git@github.com:madlabU18/Python-Intro.git ```
+Download from the command line: ``` wget https://github.com/madlabU18/python-intro/archive/master.tar.gz ```
+
+Alterntively use git clone if you are proficient with git. This means you can make changes and revert it back to its original state with ``` git checkout intro.py ```
+
+``` git clone git@github.com:madlabU18/python-intro.git ```
 
 Once you have the files extracted, simply edit & run ```intro.py```
 
