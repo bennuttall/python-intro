@@ -1,5 +1,3 @@
-[![Stories in Ready](http://badge.waffle.io/bennuttall/python-intro.png)](http://waffle.io/bennuttall/python-intro)
-
 # Python Intro
 
 A Python learning tool with beginner exercises in using variables, data structures and basic control flow.
