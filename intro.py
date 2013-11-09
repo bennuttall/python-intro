@@ -368,7 +368,8 @@ for name in addresses:
 
 # GO!
 
-# 23. What is the sum of all the digits in all the numbers from 1 to 1000?
+# 23. A final challenge using the skills you've learned:
+# What is the sum of all the digits in all the numbers from 1 to 1000?
 
 # GO!
 
