@@ -314,7 +314,45 @@ students = [
 
 # GO!
 
-# 22. What is the sum of all the digits in all the numbers from 1 to 1000?
+# 22. Another useful data structure is a dictionary
+
+# Dictionaries contain key-value pairs like an address book maps name
+# to number
+
+addresses = {
+    'Lauren': '0161 5673 890',
+    'Amy': '0115 8901 165',
+    'Daniel': '0114 2290 542',
+    'Emergency': '999'
+}
+
+# You access dictionary elements by looking them up with the key:
+
+# print(addresses['Amy'])
+
+# You can check if a key or value exists in a given dictionary:
+
+# print('David' in addresses)  # [True]
+# print('999' in addresses)  # [False]
+# print('999' in addresses.values())  # [True]
+# print(999 in addresses.values())  # [False]
+
+# GO!
+
+# Note that 999 was entered in to the dictionary as a string, not an integer
+
+# Think: what would happen if phone numbers were stored as integers?
+# Try changing Amy's phone number to an integer by removing the quotes
+# (you can reset dictionary elements like so:
+
+# addresses['Amy'] = 01158901165  # (note you can't have spaces in integers)
+# print(addresses['Amy'])
+
+# GO!
+
+# Think: What's wrong with this?
+
+# 23. What is the sum of all the digits in all the numbers from 1 to 1000?
 
 # GO!
 
