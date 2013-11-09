@@ -332,7 +332,8 @@ addresses = {
 
 # You can check if a key or value exists in a given dictionary:
 
-# print('David' in addresses)  # [True]
+# print('David' in addresses)  # [False]
+# print('Daniel' in addresses)  # [True]
 # print('999' in addresses)  # [False]
 # print('999' in addresses.values())  # [True]
 # print(999 in addresses.values())  # [False]
