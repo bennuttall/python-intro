@@ -351,6 +351,23 @@ addresses = {
 
 # GO!
 
+# Delete Daniel from the dictinary
+
+# print('Daniel' in addresses)  # [True]
+# del addresses['Daniel']
+# print('Daniel' in addresses)  # [False]
+
+# GO!
+
+# You can also loop over a dictionary and access its contents:
+
+'''
+for name in addresses:
+    print(name, addresses[name])
+'''
+
+# GO!
+
 # 23. What is the sum of all the digits in all the numbers from 1 to 1000?
 
 # GO!
