@@ -342,15 +342,13 @@ addresses = {
 # Note that 999 was entered in to the dictionary as a string, not an integer
 
 # Think: what would happen if phone numbers were stored as integers?
-# Try changing Amy's phone number to an integer by removing the quotes
-# (you can reset dictionary elements like so:
 
-# addresses['Amy'] = 01158901165  # (note you can't have spaces in integers)
+# Try changing Amy's phone number to a new number
+
+# addresses['Amy'] = '0115 236 359'
 # print(addresses['Amy'])
 
 # GO!
-
-# Think: What's wrong with this?
 
 # 23. What is the sum of all the digits in all the numbers from 1 to 1000?
 
