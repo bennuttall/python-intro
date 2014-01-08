@@ -10,31 +10,7 @@ Also designed to be PEP-8 compliant, to encourage good coding style.
 
 ## How to use
 
-Download or clone this repository and extract the files. Options for doing this:
-
-### CLICK THE BUTTON
-
-You can download the project using the Downloads buttons (ZIP and TAR) above
-
-### ZIP
-
-Web URL: ``` https://github.com/bennuttall/python-intro/archive/master.zip ```
-
-Download from the command line: ``` wget https://github.com/bennuttall/python-intro/archive/master.zip ```
-
-### Tarball
-
-Web URL: ``` https://github.com/bennuttall/python-intro/archive/master.tar.gz ```
-
-Download from the command line: ``` wget https://github.com/bennuttall/python-intro/archive/master.tar.gz ```
-
-### Git
-
-Alterntively use ```git clone``` if you are proficient with git. This means you can make changes and revert it back to its original state with ``` git checkout intro.py ```
-
-``` git clone git@github.com:bennuttall/python-intro.git ```
-
-Once you have the files extracted, simply edit & run ```intro.py```
+Download this repository using the Downloads buttons (ZIP and TAR) above and extract the files. Then just edit & run ```intro.py```
 
 ## License
 
@@ -46,4 +22,4 @@ This license means you can download it, copy it, change it, fork it, do whatever
 
 If you have an issue and don't know how to fix it, please file an issue on GitHub.
 
-If you would like to rephrase the wording or change the code, fork this project and file a pull request with the original repository which will be reviewed by the author.
+If you would like to rephrase the wording or change the code, fork this project and file a pull request against the original repository which will be reviewed by the author.
