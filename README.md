@@ -49,4 +49,4 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 Based on a work at https://github.com/bennuttall/python-intro.
 
-This license means you can download it, copy it, change it, fork it, do whatever you want with it. If you teach, feel free to use it in your classes. Copying, sharing and redistributing this project is encouraged. Ideally you will share the GitHub URL so that you get updates to the project, but you are free to take a copy at any time and use that version. Please feel free to contribute to this project via a Pull Request on GitHub.
+This license means you can download it, copy it, change it, fork it, do whatever you want with it. If you teach, feel free to use it in your classes. Copying, sharing and redistributing this project is encouraged. Ideally you will share the GitHub URL so that you get updates to the project, but you are free to take a copy at any time and use that version. Please feel free to contribute to this project by creating a Pull Request on GitHub.
